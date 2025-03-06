@@ -1,11 +1,294 @@
-.image {
-    background-image: url("/images/logo.png");
-    width: 10%;
-    height: 10rem;
+body {
+    font-family: "Montserrat", sans-serif;
 }
 
+.header {
+    width: 100%;
+    
+}
+
+
+.image {
+    width: 10%;
+    height: 10%;
+}
+
+nav {
+    width: 50%;
+}
 .fond {
     background-image: url("/images/bg.jpg");
     width: 100%;
-    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.logo {
+    margin-top: 1rem;
+    width: 8rem;
+    height: 4rem;
+    position: absolute;
+    margin-left: 2rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+li {
+    list-style: none;
+    margin-top: 2.3rem;
+    margin-left: 2rem;
+}
+
+.n_e {
+    color: white;
+    margin-top: 10%;
+    margin-left: 3rem;
+    font-size: 4rem;
+}
+
+.scroll {
+    /* margin-top: 29rem; */
+    margin-left: 5rem;
+    color: white;   
+}
+
+.trois {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3.5rem;
+    flex-wrap: wrap;
+    
+}
+
+#store {
+    color: green;
+    margin-left: 2.5rem;
+    height: 2rem; 
+}
+
+
+#truck {
+    color: green;
+    margin-left: 1.5rem;
+    height: 2rem;
+    
+}
+
+#carry {
+    color: green;
+    margin-left: 3.1rem;
+    height: 2rem;
+}
+
+.nos {
+    width: 90%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.n {
+    text-decoration: underline;
+    text-decoration-color:  rgb(137, 212, 87);
+    
+}
+
+.ventes {}
+
+.grand {    
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+
+   
+}
+.imageCard{
+    min-width: 20rem;
+    max-width: 25rem;
+    
+}
+
+.imageCard img {
+    width: 100%;
+}
+
+.plante_1 {
+    margin-top: -4.50rem;
+    margin-left: 1rem;
+}
+
+.p1 {
+    margin-top: -1rem;
+    margin-left: 1rem;
+    color: rgb(137, 212, 87);
+    font-weight: bold;
+}
+
+
+
+
+
+.div1 {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.button {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -3rem;
+    border-radius: 19px;
+    height: 2.50rem;
+    max-width: 10rem;
+    min-width: 7rem;
+    background-color: rgb(137, 212, 87);
+    color: white;
+    border-style: none;
+    
+}
+
+.none {
+    text-decoration: none;
+    color: white;
+}
+
+.milieu {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.div2 {
+    position: relative;
+    width: 100%;
+    height: 7.41%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.carre {
+    max-width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.car {
+    width: 50%;
+    width: 47%; min-width: 35rem
+}
+.carre_2 {
+    display: block;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 47%; min-width: 35rem
+}
+
+.milieu img {
+    width: 100%;
+}
+
+.hauteur {
+    height: 33.68rem;
+}
+
+.button2 {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -3rem;
+    border-radius: 19px;
+    height: 2.50rem;
+    width: 10rem;
+    background-color: rgb(137, 212, 87);
+    color: white;
+    border-style: none;
+}
+
+.saigon {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+
+.saigon img {
+    width: 100%;
+}
+.carre_3 {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.button3 {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -3rem;
+    border-radius: 19px;
+    height: 2.50rem;
+    width: 10rem;
+    background-color: rgb(137, 212, 87);
+    color: white;
+    border-style: none;
+}
+
+.button_3 {
+    position: absolute;
+    margin-left: 60%;
+    margin-top: -3rem;
+    border-radius: 19px;
+    height: 2.50rem;
+    width: 10rem;
+    background-color: rgb(137, 212, 87);
+    color: white;
+    border-style: none;
+}
+
+.pareil {
+    height: 100%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5.70rem;
+    margin-top: 7rem;
+    margin-left: 4rem;
+}
+
+
+/* responsive */
+
+@media screen and (max-width:750px) {
+
+    .carre_2,.car{
+
+        width: 100%;
+        border: 1px red solid;
+    }
+    
+}
+
+.card {
+     min-width: 20rem;
+    max-width: 25rem;
+}
+
+.card img {
+    max-width: 100%;
 }
